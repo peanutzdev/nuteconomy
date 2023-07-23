@@ -31,8 +31,10 @@
         <Container>
         <Title order={2} style={{ fontFamily: "'Londrina Solid', cursive", color:"#FAF0CA" }}>Projects</Title>
         <Grid>
-          <Grid.Col xs={12} sm={6}> <Clipboard {...projectInfoPeanutz} /></Grid.Col>
-          <Grid.Col xs={12} sm={6}> <Clipboard {...projectInfoCashew} /></Grid.Col>
+          {/*<Grid.Col xs={12} sm={6}> <Clipboard {...projectInfoPeanutz} /></Grid.Col>*/}
+          {/*<Grid.Col xs={12} sm={6}> <Clipboard {...projectInfoCashew} /></Grid.Col>*/}
+          <Grid.Col xs={12} sm={6}><ClipboardEmpty /></Grid.Col>
+          <Grid.Col xs={12} sm={6}><ClipboardEmpty /></Grid.Col>
           <Grid.Col xs={12} sm={6}><ClipboardEmpty /></Grid.Col>
           <Grid.Col xs={12} sm={6}><ClipboardEmpty /></Grid.Col>
           <Grid.Col xs={12} sm={6}><ClipboardEmpty /></Grid.Col>
