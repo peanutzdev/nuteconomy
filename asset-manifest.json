@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/static/css/main.fa850f04.css",
-    "main.js": "/static/js/main.6d476b16.js",
-    "index.html": "/index.html",
-    "main.fa850f04.css.map": "/static/css/main.fa850f04.css.map",
-    "main.6d476b16.js.map": "/static/js/main.6d476b16.js.map"
+    "main.css": "/nuteconomy.com/static/css/main.fa850f04.css",
+    "main.js": "/nuteconomy.com/static/js/main.8a0b3083.js",
+    "index.html": "/nuteconomy.com/index.html",
+    "main.fa850f04.css.map": "/nuteconomy.com/static/css/main.fa850f04.css.map",
+    "main.8a0b3083.js.map": "/nuteconomy.com/static/js/main.8a0b3083.js.map"
   },
   "entrypoints": [
     "static/css/main.fa850f04.css",
-    "static/js/main.6d476b16.js"
+    "static/js/main.8a0b3083.js"
   ]
 }
