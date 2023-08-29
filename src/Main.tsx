@@ -7,20 +7,20 @@
 
     const projectInfoPeanutz = {
       projectName: "./peanutz_logo.png", 
-      projectDescription: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard Lorem Ipsum is simply dummy text of the printing  Lorem Ipsum is simply dummy text of the ", 
-      projectLinkWeb: "http://www.cashew.io", 
-      projectLinkTelegram: "www.telegram/cashue", 
-      projectLinkTwitter: "twitter.com/cashue", 
-      projectLinkdextools: "www.dex"
+      projectDescription: "Peanutz offers you a unique opportunity to become a part of the Nut Economy's decision-making process. Picture yourself not just as an investor but as an active contributor. Cashew holders already enjoy rewards like shareholders, receiving dividends from every facet of the Nut Economy. With Peanutz, you're not only rewarded, but you also get the power to vote. Join us in shaping the future of DeFi, where participation is valued, and innovation thrives.",
+      projectLinkWeb: "https://peanutz.io",
+      projectLinkTelegram: "https://t.me/+3D65r2i-jPxmMGVk",
+      projectLinkTwitter: "http://twitter.com/officialpeanutz",
+      projectLinkdextools: "https://www.dextools.io/app/en/pairs"
     };
 
     const projectInfoCashew = {
       projectName: "./cashew_logo.png", 
-      projectDescription: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard Lorem Ipsum is simply dummy text of the printing  Lorem Ipsum is simply dummy text of the ", 
-      projectLinkWeb: "cashue.io", 
-      projectLinkTelegram: "www.telegram/cashue", 
-      projectLinkTwitter: "twitter.com/cashue", 
-      projectLinkdextools: "www.dex"
+      projectDescription: "Cashew  isn't just another token, it's your financial instrument into the Nut Economy. By holding Cashew, you're not just a spectator but an active participant in shaping the future. You'll be rewarded with a stake in upcoming projects through airdrops. Join us as we blend innovation with ownership and pave the way for a new era of DeFi possibilities.",
+      projectLinkWeb: "https://cashewcoin.io",
+      projectLinkTelegram: "https://t.me/+3D65r2i-jPxmMGVk",
+      projectLinkTwitter: "https://twitter.com/cashewCoin",
+      projectLinkdextools: "https://www.dextools.io/app/en/pairs"
     };
 
 
@@ -31,8 +31,8 @@
         <Container>
         <Title order={2} style={{ fontFamily: "'Londrina Solid', cursive", color:"#FAF0CA" }}>Projects</Title>
         <Grid>
-          {/*<Grid.Col xs={12} sm={6}> <Clipboard {...projectInfoPeanutz} /></Grid.Col>*/}
-          {/*<Grid.Col xs={12} sm={6}> <Clipboard {...projectInfoCashew} /></Grid.Col>*/}
+          <Grid.Col xs={12} sm={6}> <Clipboard {...projectInfoPeanutz} /></Grid.Col>
+          <Grid.Col xs={12} sm={6}> <Clipboard {...projectInfoCashew} /></Grid.Col>
           <Grid.Col xs={12} sm={6}><ClipboardEmpty /></Grid.Col>
           <Grid.Col xs={12} sm={6}><ClipboardEmpty /></Grid.Col>
           <Grid.Col xs={12} sm={6}><ClipboardEmpty /></Grid.Col>
