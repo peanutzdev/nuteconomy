@@ -38,11 +38,11 @@ export function Clipboard(props: IclipboardProps) {
        
       }}
     >
-      {/* This will now sit over the clipboard image */}
       <Flex justify="center" align="center" mih={isSmall ? 80 : 120}>
         <Image src={props.projectName} />
       </Flex>
-      <p>{props.projectDescription}</p>
+      <p style={{paddingBottom:"50px"}}>{props.projectDescription}</p>
+
       <Flex justify="space-between" align="center">
         <Button
           component="a"
