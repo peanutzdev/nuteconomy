@@ -1,6 +1,7 @@
 import { MantineProvider } from '@mantine/core';
 import Main from './Main';
 import './App.css';
+import ComingSoon from "./components/ComingSoon";
 
 export default function App() {
   return (
@@ -52,7 +53,8 @@ export default function App() {
         },
       }}
     >
-      <Main />
+      {/*<Main />*/}
+      <ComingSoon />
     </MantineProvider>
   );
 }
